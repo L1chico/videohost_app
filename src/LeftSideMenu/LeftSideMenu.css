@@ -1,0 +1,47 @@
+.LeftSideMenu {
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    background-color: rgba(62, 56, 56, 1);
+    border-right: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.LeftSideMenu_Main {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    width: 80px;
+    height: 46px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.LeftSideMenu_Subscriptions {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    width: 80px;
+    height: 46px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.LeftSideMenu_Catalog {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    width: 80px;
+    height: 46px;
+    background-color: white;
+    border-radius: 40px;
+}

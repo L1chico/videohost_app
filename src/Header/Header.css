@@ -1,0 +1,87 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(62, 56, 56, 1);
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Header_Name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.Header_Search {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    border-radius: 20px;
+}
+
+.Header_ChangeLang{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    width: 70px;
+    height: 46px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.Header_DownloadVideo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    width: 100px;
+    height: 46px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.Header_ChangeTheme {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    width: 150px;
+    height: 46px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.Header_SingIn {
+    width: 110px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.Header_Register {
+    width: 110px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    background-color: white;
+    border-radius: 40px;
+}
