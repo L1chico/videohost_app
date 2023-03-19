@@ -3,9 +3,9 @@ import "./LeftSideMenu.css";
 function LeftSideMenu () {
     return (
         <div className="LeftSideMenu">
-            <button className="LeftSideMenu_Main">Main</button>
-            <button className="LeftSideMenu_Subscriptions">Subscr<br/>iptions</button>
-            <button className="LeftSideMenu_Catalog">Catalog</button>
+            <a href="/" className="LeftSideMenu_Main">Main</a>
+            <a href="/subscriptions" className="LeftSideMenu_Subscriptions">Subscr<br/>iptions</a>
+            <a href="/catalog" className="LeftSideMenu_Catalog">Catalog</a>
         </div>
     );
 }

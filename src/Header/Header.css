@@ -1,7 +1,8 @@
 .Header {
-    position: fixed;
-    width: 100%;
-    height: 10vh;
+    /* position: relative; */
+    grid-area: A;
+/*     width: 100%;
+    height: 10vh; */
     background-color: rgba(62, 56, 56, 1);
     border-bottom: 5px solid black;
     display: flex;

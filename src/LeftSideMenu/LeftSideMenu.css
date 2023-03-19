@@ -1,7 +1,8 @@
 .LeftSideMenu {
-    position: fixed;
-    width: 100px;
-    height: 100vh;
+    grid-area: B;
+    /* position: relative; */
+/*     width: 100px;
+    height: 100vh; */
     background-color: rgba(62, 56, 56, 1);
     border-right: 5px solid black;
     display: flex;
