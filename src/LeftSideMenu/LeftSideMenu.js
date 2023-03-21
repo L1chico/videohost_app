@@ -3,9 +3,15 @@ import "./LeftSideMenu.css";
 function LeftSideMenu () {
     return (
         <div className="LeftSideMenu">
-            <a href="/" className="LeftSideMenu_Main">Main</a>
-            <a href="/subscriptions" className="LeftSideMenu_Subscriptions">Subscr<br/>iptions</a>
-            <a href="/catalog" className="LeftSideMenu_Catalog">Catalog</a>
+            <div className="LeftSideMenu_Container">
+                <a href="/" className="LeftSideMenu_Container_link">Main</a>
+            </div>
+            <div className="LeftSideMenu_Container">
+                <a href="/subscriptions" className="LeftSideMenu_Container_link">Subscr<br/>iptions</a>
+            </div>
+            <div className="LeftSideMenu_Container">
+                <a href="/catalog" className="LeftSideMenu_Container_link">Catalog</a>
+            </div>
         </div>
     );
 }

@@ -11,38 +11,35 @@
     justify-content: space-evenly;    
 }
 
-.LeftSideMenu_Main {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 13px;
+.LeftSideMenu_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
     width: 80px;
     height: 46px;
     background-color: white;
+    border: 3px solid white;
     border-radius: 40px;
 }
 
-.LeftSideMenu_Subscriptions {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 13px;
-    width: 80px;
-    height: 46px;
-    background-color: white;
-    border-radius: 40px;
+.LeftSideMenu_Container:hover {
+    border: 3px solid black;
 }
 
-.LeftSideMenu_Catalog {
+.LeftSideMenu_Container_link {
+    text-decoration: none;
+    color: black;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 13px;
-    width: 80px;
-    height: 46px;
-    background-color: white;
-    border-radius: 40px;
+    border-bottom: 3px solid white;
+}
+
+.LeftSideMenu_Container_link:hover {
+    border-bottom: 3px solid red;
 }

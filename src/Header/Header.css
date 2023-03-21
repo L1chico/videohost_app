@@ -27,62 +27,36 @@
     border-radius: 20px;
 }
 
-.Header_ChangeLang{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 13px;
-    width: 70px;
+.Header_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 80px;
     height: 46px;
     background-color: white;
+    border: 3px solid white;
     border-radius: 40px;
 }
 
-.Header_DownloadVideo {
+.Header_Container:hover {
+    border: 3px solid black;
+}
+
+
+.Header_Container_Link {
+    text-decoration: none;
+    color: black;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 13px;
-    width: 100px;
-    height: 46px;
-    background-color: white;
-    border-radius: 40px;
+    border-bottom: 3px solid white;
 }
 
-.Header_ChangeTheme {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 13px;
-    width: 150px;
-    height: 46px;
-    background-color: white;
-    border-radius: 40px;
-}
-
-.Header_SingIn {
-    width: 110px;
-    height: 50px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 13px;
-    background-color: white;
-    border-radius: 40px;
-}
-
-.Header_Register {
-    width: 110px;
-    height: 50px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 13px;
-    background-color: white;
-    border-radius: 40px;
+.Header_Container_Link:hover {
+    border-bottom: 3px solid red;
 }

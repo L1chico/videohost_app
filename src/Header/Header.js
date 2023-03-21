@@ -6,11 +6,21 @@ function Header() {
         <div className="Header">
             <span className="Header_Name">ProtoTube</span>
             <input type="text" placeholder="Search"  className="Header_Search"/>
-            <button className="Header_ChangeLang">ENG</button>
-            <button className="Header_DownloadVideo">Download</button>
-            <button className="Header_ChangeTheme">ChangeTheme</button>
-            <button className="Header_SingIn">Sign in</button>
-            <button className="Header_Register">Register</button>
+            <div className="Header_Container">
+                <a href="/" className="Header_Container_Link">ENG</a>
+            </div>
+            <div className="Header_Container">
+                <a href="/" className="Header_Container_Link">upload</a>
+            </div>
+            <div className="Header_Container">
+                <a href="/" className="Header_Container_Link">Change<br/>Theme</a>
+                </div>
+            <div className="Header_Container">
+                <a href="/" className="Header_Container_Link">Sing In</a>
+            </div>
+            <div className="Header_Container">
+                <a href="/" className="Header_Container_Link">Register</a>
+            </div>
         </div>
     );
 }
